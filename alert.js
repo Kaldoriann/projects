@@ -11,5 +11,6 @@ function sum() {
 alert(sum()); // 0
 alert(sum(1)); // 1
 alert(sum(1, h)); // 3
-alert(sum(1, 2, 3)); // 6
-alert(sum(1, 2, 3, 4)); // 10
+alert(sum(1, h, 3)); // 6
+alert(sum(1, h, 3, 4)); // 10
+asadasdS;
