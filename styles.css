@@ -5,14 +5,16 @@ p {
 }
 body {
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
 }
 .menu {
   width: 80%;
   background-color: burlywood;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 20px;
+  max-width: 500;
 }
-.flavor,.dessert {
+.flavor,
+.dessert {
   text-align: left;
   width: 75%;
 }
@@ -22,4 +24,8 @@ body {
 }
 .item p {
   display: inline-block;
+}
+h1,
+h2 {
+  font-family: Impact, serif;
 }
